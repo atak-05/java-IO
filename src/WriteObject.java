@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.io.ObjectOutputStream;
 
 public class WriteObject {
-    public static void main(String[] args) throws IOException {
+    public  void main(String[] args) throws IOException {
         System.out.println("Nesneler yazdırılıyor..");
         person person1 = new person(1,"Cenk");
         System.out.println("birinci nesne yazdırıldı..");
